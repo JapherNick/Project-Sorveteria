@@ -1,0 +1,203 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	
+	{
+		int n;
+		
+		
+		do{
+			printf("\n Ola! Seja bem vindo a Lanchonete Santos, o que você vai querer hoje? \n");
+			
+			printf("\t (1) ...  Sorvete \n");
+			printf("\t (2) ... Acai \n");
+			printf("\t (3) ... Milkshake \n");
+			
+			scanf("%d", &n);
+		}while((n<1) || (n>3));
+		
+		switch(n){
+			case 1:
+				printf("\t Voce selecionou Sorvete");
+				break;
+				
+				case 2:
+					printf("\t Voce Selecionou Acai");
+					break;
+				
+						case 3:
+							printf("\t Voce Selecionou Milkshake");
+							break;
+		}
+		int a;
+}
+		}
+		
+		
+		do{
+			printf("\n Ola! Seja bem vindo a Sorveteria do Nicholas, por gentileza selecione o tamanho do seu copo. \n");
+			
+			printf("\t (1) ... 150ML \n");
+			printf("\t (2) ... 300ML \n");
+			printf("\t (3) ... 500ML \n");
+			
+			scanf("%d", &a);
+			
+		}while((a<1) || (a>3));
+		
+		switch(a){
+			case 1:
+				printf("\t Voce selecionou o copo de 150ML");
+				break;
+				
+				case 2:
+					printf("\t Voce selecionou copo de 300ML");
+					break;
+					
+					case 3:
+						printf("\t Voce Selecionou o Copo de 500ML");
+						break;
+		}
+	}
+	int i; 
+	
+	do{
+		printf("\n Digite um numero do sabor \n");
+		
+		printf("\t (1) ...flocos \n)");
+		printf("\t (2) ...morango \n)");
+		printf("\t (3) ...leite condesado \n)");
+		printf("\t (4) ...chocolate \n)");
+		printf("\t (5) ...chiclete \n)");
+		
+		scanf("%d", &i);
+		
+	}while((i<1) || (i>5));
+	
+	switch(i){
+		case 1:
+			printf("\t Voce escolheu flocos");
+			break;
+			
+			case 2:
+				printf("\t Voce escolheu morango");
+				break;
+				
+				case 3:
+					printf("t Voce escolheu leite condesado");
+					break;
+					
+					case 4:
+						printf("\t Voce escolheu chocolate");
+			            break;
+			            
+			            case 5:
+			            	printf("\t Voce escolheu chiclete");
+			                break;
+			
+	}
+	{
+		int e;
+		
+		do{
+			printf("\n Digite o numero da calda \n");
+			
+			printf("\t (1) ... Chocolate \n");
+			printf("\t (2) ... Caramelo \n");
+			printf("\t (3) ... Morango \n");
+			printf("\t (4) ... Leite Condesado \n");
+			printf("\t (5) ... Doce De leite \n");
+			printf("\t (6) ... Nenhuma \n");
+			
+			scanf("%d", &e);
+			
+		}while((e<1) || (e>6));
+		
+		switch(e){
+			case 1:
+				printf("\t Voce escolheu Chocolate");
+				break;
+				
+				case 2:
+					printf("\t Voce escolheu Caramelo");
+					break;
+					
+					case 3:
+						printf("\t Voce escolheu morgango");
+						break;
+						
+						case 4:
+				             printf("\t Voce escolheu Leite Condesado");
+				             break;
+				            
+				             case 5:
+				             	printf("\t Voce escolheu Doce De leite \n");
+				             	break;
+				             	
+				             	      case 6:
+				             	         printf("\t Voce escolheu Nenhuma \n");
+				             	        break;
+				            	
+		}
+		{
+			int b;
+			
+			do{
+				printf("\n Gostaria de um adicional?");
+				
+				printf("\n (1) ... Nao \n");
+				printf("\n (2) ... Granulado \n");
+				printf("\n (3) ... Discos de Chocolate \n");
+				printf("\n (4) ... Leite Ninho \n");
+				
+				scanf("%d", &b);
+				
+			}while((b<1) || (b>4));
+			
+			switch(b){
+				case 1:
+					printf("\t Voce escolheu nao");
+					break;
+					
+					case 2:
+						printf("\t Voce escolheu Granulado");
+						break;
+						
+						case 3:
+							printf("\t Voce escolheu Discos de Chocolate");
+							break;
+							
+							case 4:
+								printf("\t Voce escolheu leite ninho");
+								break;
+								
+			}
+		}
+	}
+	
+			int f;
+		
+		do{
+			printf("\n Escolha a forma de pagamento \n");
+			
+			printf("\t (1) Dinheiro \n");
+			printf("\t (2) Cartao \n");
+						
+			scanf("%d", &f);
+			
+		}while((f<1) || (f>2));
+		
+		switch(f){
+			case 1:
+				printf("\t Voce escolheu dinheiro, aguarde sua senha ser chamada, obrigado pela preferencia");
+				break;
+				
+				case 2:
+					printf("\t Voce escolheu cartao, aguarde sua senha ser chamada, obrigado pela preferencia");
+					break;
+					
+	}
+	return 0;
+}
