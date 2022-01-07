@@ -1,2 +1,2 @@
-# Project-Sorveteria
+# Project-Sorveteria in SQL
 Project Sorveteria
